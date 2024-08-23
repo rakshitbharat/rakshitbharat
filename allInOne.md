@@ -4,7 +4,7 @@
 With over 8 years of experience in software development, I am a versatile and innovative Senior Full-Stack Developer specializing in React, Vue, Node.js, and Laravel. My expertise spans from crafting intuitive user interfaces to architecting scalable backend systems and integrating complex IoT solutions.
 
 ### Key Highlights:
-- Led development of a global B2B e-commerce platform serving 10 million+ users, integrating React with HCL DX CMS and SAP systems.
+- Lead development of a global B2B e-commerce platform serving 10 million+ users, integrating React with HCL DX CMS and SAP systems.
 - Architected and implemented an IoT control panel managing 100,000+ smart city devices, showcasing proficiency in real-time data processing and scalable system design.
 - Developed comprehensive ERP and CRM solutions for real estate and manufacturing industries, demonstrating ability to understand and optimize complex business processes.
 - Created multiple Laravel packages with 50,000+ collective downloads, contributing significantly to the Laravel ecosystem.

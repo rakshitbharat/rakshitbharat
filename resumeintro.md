@@ -1,5 +1,3 @@
-Certainly! Here's your introduction content for the resume, formatted and refined:
-
 # Rakshit Bharatbhai Patel
 
 Sr Full-Stack Developer (React/Vue Full Stack with Node)

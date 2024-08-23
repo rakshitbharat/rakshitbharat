@@ -1,5 +1,3 @@
-Great! After highlighting your skills, the next logical section to include in your resume would be your education and certifications. Based on the information you've provided earlier, here's how we can present this section:
-
 ## Education and Certifications
 
 ### Education

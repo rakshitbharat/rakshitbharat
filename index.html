@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rakshit Bharatbhai Patel - Resume</title>
+    <style>
+      :root {
+        --primary-color: #3498db;
+        --secondary-color: #2c3e50;
+        --text-color: #333;
+        --background-color: #f4f4f4;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        line-height: 1.6;
+        color: var(--text-color);
+        background-color: var(--background-color);
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      header {
+        background-color: var(--primary-color);
+        color: white;
+        text-align: center;
+        padding: 2rem 0;
+        margin-bottom: 2rem;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin-bottom: 1rem;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+        color: var(--primary-color);
+        border-bottom: 2px solid var(--primary-color);
+        padding-bottom: 0.5rem;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        color: var(--secondary-color);
+      }
+
+      p {
+        margin-bottom: 1rem;
+      }
+
+      ul {
+        list-style-type: none;
+        margin-bottom: 1rem;
+      }
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+
+      .section {
+        background-color: white;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1rem;
+      }
+
+      .contact-info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+
+      .contact-info span {
+        background-color: var(--secondary-color);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+      }
+
+      .skills-list,
+      .interests-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+
+      .skills-list li,
+      .interests-list li {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+      }
+
+      .experience-item,
+      .education-item {
+        margin-bottom: 1.5rem;
+      }
+
+      .experience-item h3,
+      .education-item h3 {
+        margin-bottom: 0.5rem;
+      }
+
+      .experience-item p,
+      .education-item p {
+        font-style: italic;
+        color: var(--secondary-color);
+      }
+
+      @media (max-width: 768px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="resume" class="container"></div>
+
+    <script>
+      async function fetchResumeData() {
+        const response = await fetch("data.json");
+        const data = await response.json();
+        return data;
+      }
+
+      function createResumeHTML(data) {
+        const {
+          personalInfo,
+          professionalSummary,
+          skills,
+          interests,
+          certificates,
+          awards,
+          professionalExperience,
+          education,
+          languages,
+          additionalExperience,
+          keyProjects,
+        } = data;
+
+        return `
+                <header>
+                    <h1>${personalInfo.name}</h1>
+                    <p>${personalInfo.role}</p>
+                    <div class="contact-info">
+                        <span>${personalInfo.email}</span>
+                        <span>${personalInfo.phone}</span>
+                        <span>${personalInfo.github}</span>
+                    </div>
+                </header>
+
+                <section class="section">
+                    <h2>Professional Summary</h2>
+                    <p>${professionalSummary}</p>
+                </section>
+
+                <section class="section">
+                    <h2>Skills</h2>
+                    <ul class="skills-list">
+                        ${skills.map((skill) => `<li>${skill}</li>`).join("")}
+                    </ul>
+                </section>
+
+                <section class="section">
+                    <h2>Professional Experience</h2>
+                    ${professionalExperience
+                      .map(
+                        (exp) => `
+                        <div class="experience-item">
+                            <h3>${exp.role} at ${exp.company}</h3>
+                            <p>${exp.duration}</p>
+                            <ul>
+                                ${exp.responsibilities
+                                  .map((resp) => `<li>${resp}</li>`)
+                                  .join("")}
+                            </ul>
+                        </div>
+                    `
+                      )
+                      .join("")}
+                </section>
+
+                <section class="section">
+                    <h2>Education</h2>
+                    ${education
+                      .map(
+                        (edu) => `
+                        <div class="education-item">
+                            <h3>${edu.degree}</h3>
+                            <p>${edu.institution}, ${edu.location}</p>
+                            <p>${edu.duration}</p>
+                        </div>
+                    `
+                      )
+                      .join("")}
+                </section>
+
+                <section class="section">
+                    <h2>Key Projects</h2>
+                    ${keyProjects
+                      .map(
+                        (project) => `
+                        <div class="experience-item">
+                            <h3>${project.name}</h3>
+                            <ul>
+                                ${project.details
+                                  .map((detail) => `<li>${detail}</li>`)
+                                  .join("")}
+                            </ul>
+                        </div>
+                    `
+                      )
+                      .join("")}
+                </section>
+
+                <div class="grid">
+                    <section class="section">
+                        <h2>Certificates & Awards</h2>
+                        <ul>
+                            ${certificates
+                              .map(
+                                (cert) =>
+                                  `<li>${cert.name} - ${cert.issuer}</li>`
+                              )
+                              .join("")}
+                            ${awards
+                              .map(
+                                (award) =>
+                                  `<li>${award.name} - ${award.issuer}</li>`
+                              )
+                              .join("")}
+                        </ul>
+                    </section>
+
+                    <section class="section">
+                        <h2>Languages</h2>
+                        <ul>
+                            ${languages
+                              .map(
+                                (lang) =>
+                                  `<li>${lang.language} - ${lang.proficiency}</li>`
+                              )
+                              .join("")}
+                        </ul>
+                    </section>
+
+                    <section class="section">
+                        <h2>Interests</h2>
+                        <ul class="interests-list">
+                            ${interests
+                              .map((interest) => `<li>${interest}</li>`)
+                              .join("")}
+                        </ul>
+                    </section>
+                </div>
+
+                <section class="section">
+                    <h2>Additional Experience</h2>
+                    <h3>${additionalExperience.role}</h3>
+                    <ul>
+                        ${additionalExperience.details
+                          .map((detail) => `<li>${detail}</li>`)
+                          .join("")}
+                    </ul>
+                </section>
+            `;
+      }
+
+      async function renderResume() {
+        const resumeData = await fetchResumeData();
+        const resumeHTML = createResumeHTML(resumeData);
+        document.getElementById("resume").innerHTML = resumeHTML;
+      }
+
+      renderResume();
+    </script>
+  </body>
+</html>

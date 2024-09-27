@@ -1,0 +1,265 @@
+{
+  "personalInfo": {
+    "name": "Rakshit Bharatbhai Patel",
+    "role": "Sr Full-Stack Developer (React/Vue Full Stack with Node)",
+    "email": "rakshitbharatproject@gmail.com",
+    "phone": "8000263443",
+    "address": "Aastha Appartment, Alkapuri To Saibaba Mandir Road, 380061 Ahmedabad, India",
+    "github": "github.com/rakshitbharat"
+  },
+  "professionalSummary": "Highly organized IT professional with over 8 years of experience in software development, specializing in React, Node.js, and various JavaScript frameworks. Proven track record in leading complex projects for global clients, including e-commerce platforms serving millions of users. Expertise in IoT, CRM systems, and data visualization tools like Google Looker Studio. Recognized for technical innovation, team leadership, and the ability to deliver scalable, high-performance solutions. Strong problem-solving skills and a passion for staying updated with the latest industry advancements. Collaborative team player with excellent communication skills, leveraging a unique background in performing arts to excel in public speaking and team collaboration.",
+  "skills": [
+    "AI & Machine Learning",
+    "Server-Side: Node.js, Laravel PHP, Express.js, Next.js, Symfony, Django",
+    "Client-Side: React, Vue, Angular, jQuery, HTML, CSS",
+    "JavaScript Frameworks: React, React Native, Next.js, Vue.js, Nuxt.js, Angular.js, Ionic",
+    "Linux Production Server Handling",
+    "Version Control & Project Management: Git, Kanban, Agile-Scrum, Jira"
+  ],
+  "machineLearningAlgorithms": [
+    "Linear regression",
+    "Logistic regression",
+    "Linear discriminant analysis",
+    "Decision trees",
+    "Naive Bayes",
+    "K-Nearest Neighbors",
+    "Learning vector quantization",
+    "Support vector machines",
+    "Bagging and random forest",
+    "Deep neural networks"
+  ],
+  "interests": [
+    "Computing",
+    "Playing Chess",
+    "Outdoor and Indoor Gaming (Football, Cricket, Carom, Chess)",
+    "Evening walks"
+  ],
+  "certificates": [
+    {
+      "name": "Certified Symfony Developer",
+      "issuer": "Symfony Certification Program"
+    },
+    {
+      "name": "Sangeet Natak Academy",
+      "issuer": "Government of Gujarat"
+    }
+  ],
+  "awards": [
+    {
+      "name": "2020 Star Performer Of The Year",
+      "issuer": "Anblicks Inc. (Formerly KNOWARTH)"
+    }
+  ],
+  "professionalExperience": [
+    {
+      "company": "Annalect India (Omnicom Group)",
+      "role": "Sr Full-Stack Developer",
+      "duration": "January 2023 - Present",
+      "responsibilities": [
+        "Lead Full Stack Developer specializing in React and Node.js development",
+        "Spearhead development of high-profile projects for brands like Skoda, Fiat, and L'Oreal Analysis portal",
+        "Utilize and optimize technologies including React, Storybook, Node.js, and Google Looker Studio",
+        "Achieved stable integration between React and Google Looker Studio, enhancing data visualization capabilities",
+        "Architect and implement frontend solutions using React",
+        "Develop and maintain RESTful APIs using Node.js",
+        "Collaborate with cross-functional teams to define, design, and ship new features",
+        "Ensure the performance, quality, and responsiveness of applications",
+        "Identify and correct bottlenecks and fix bugs",
+        "Help maintain code quality, organization, and automatization"
+      ]
+    },
+    {
+      "company": "Priya Softweb Solutions (Avnet Company)",
+      "role": "Lead - Sr React-Developer (With HCLDX-SAP)",
+      "duration": "2021 - December 2022",
+      "responsibilities": [
+        "Led a team of 12 developers in developing a B2B portal using React and SAP integration",
+        "Spearheaded the implementation of React components within HCL DX CMS for a global e-commerce platform serving over 10 million users",
+        "Developed a groundbreaking package enabling React integration with HCL DX, significantly accelerating project timelines",
+        "Engineered a robust B2B platform for the global electronics industry, handling millions of users and thousands of products",
+        "Managed project timelines, resources, and deliverables",
+        "Conducted code reviews and mentored junior developers",
+        "Collaborated with stakeholders to gather and refine specifications for new features",
+        "Implemented best practices in React development and state management",
+        "Optimized application for maximum speed and scalability",
+        "Participated in architecture discussions and made key technical decisions"
+      ]
+    },
+    {
+      "company": "Anblicks Inc. (Formerly KNOWARTH)",
+      "role": "Lead Frontend, Sr Full-Stack Dev / Consultant",
+      "duration": "2020 - November 2021",
+      "responsibilities": [
+        "Awarded Star Performer of the year for exceptional contributions",
+        "Led development of IoT-based projects and managed multiple decade-old projects with several sub-projects",
+        "Demonstrated proficiency in IoT, Salesforce, HubSpot, and various CRM systems",
+        "Provided technical leadership and mentoring to junior developers",
+        "Designed and implemented scalable frontend architectures",
+        "Integrated IoT devices with web applications, ensuring real-time data flow",
+        "Customized and extended CRM systems to meet specific client needs",
+        "Conducted technical feasibility studies for new project ideas",
+        "Liaised with clients to understand requirements and provide technical consultations",
+        "Implemented agile methodologies to improve team productivity and project outcomes"
+      ]
+    },
+    {
+      "company": "Riddhi Corporate Services LTD",
+      "role": "Sr Full-Stack Dev / Team Lead",
+      "duration": "2017 - 2020",
+      "responsibilities": [
+        "Led the development of ERP, CRM, and POS products, contributing significantly to career growth",
+        "Demonstrated proficiency in React, Laravel, and Vue.js",
+        "Managed cross-functional teams to deliver complex software solutions",
+        "Implemented best practices in code quality and project management",
+        "Architected and developed full-stack web applications",
+        "Designed and implemented database schemas and server-side logic",
+        "Integrated third-party services and external APIs",
+        "Implemented security and data protection measures",
+        "Conducted performance tuning and optimization",
+        "Mentored team members on best practices and new technologies"
+      ]
+    },
+    {
+      "company": "Yugtia Technologies Private Limited",
+      "role": "Sr Web Developer",
+      "duration": "2016 - 2017",
+      "responsibilities": [
+        "Successfully created a custom PHP framework",
+        "Managed self-initiated projects with commendable results",
+        "Trained and mentored junior developers, fostering team growth and skill development",
+        "Developed and maintained web applications using PHP and JavaScript",
+        "Implemented responsive design techniques for mobile-friendly websites",
+        "Collaborated with designers to implement visual elements",
+        "Performed browser testing and debugging",
+        "Optimized applications for maximum speed and scalability"
+      ]
+    },
+    {
+      "company": "Natraj Infocom",
+      "role": "Jr Web Developer",
+      "duration": "2015 - 2016",
+      "responsibilities": [
+        "Gained extensive knowledge in web technologies, particularly in Laravel and Symfony",
+        "Performed exceptionally well while pursuing studies and initiated training activities concurrently",
+        "Contributed to various web development projects, rapidly advancing skills and responsibilities",
+        "Assisted in the development of web applications using PHP frameworks",
+        "Implemented frontend designs using HTML, CSS, and JavaScript",
+        "Participated in code reviews and bug fixing",
+        "Assisted in database design and management",
+        "Engaged in continuous learning and skill development"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "MSc IT",
+      "institution": "Hemchandracharya North Gujarat University",
+      "location": "Ahmedabad, India",
+      "duration": "2012 - 2016"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Professional working proficiency"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "Expert level"
+    },
+    {
+      "language": "Gujarati",
+      "proficiency": "Native proficiency (Mother tongue)"
+    }
+  ],
+  "additionalExperience": {
+    "role": "Gujarati Stage-Drama, Music Operator",
+    "details": [
+      "Worked with Gujarati Drama Industry as a stage artist for 500+ shows",
+      "Transitioned to IT industry as a professional, reducing involvement in media",
+      "Leveraged strong family background in Gujarati Drama to occasionally continue work in the field",
+      "This experience made me fear-free of audience nervousness and stage fear, enabling me to speak confidently in front of many people"
+    ]
+  },
+  "keyProjects": [
+    {
+      "name": "Avnet SAP Based E-commerce (React JS)",
+      "details": [
+        "Led a team of 12 developers, overseeing frontend development",
+        "Implemented React components within HCL DX CMS for a global e-commerce platform serving over 10 million users worldwide",
+        "Created a dedicated package to use React inside HCL DX, a significant achievement",
+        "Integrated React components inside HCL DX, a complex task that previously took other developers 1.5 years",
+        "Developed an extensive e-commerce website with HCL DX, used globally by the electronics industry with millions of users, primarily B2B, handling thousands to hundreds of thousands of products"
+      ]
+    },
+    {
+      "name": "Ubicquia Control-Panel (IoT Devices Control Panel)",
+      "details": [
+        "Managed over 4 types of IoT devices, primarily for governments, municipalities, and large companies",
+        "Devices included smart street lights with WiFi and automation features like seasonal light control",
+        "Developed an industrial WiFi hotspot device",
+        "Created a highly scalable control panel to manage IoT devices for thousands of companies/governments worldwide",
+        "Designed a user interface for controlling devices at a large scale, allowing governments/companies to manage networks widely",
+        "Implemented data processing using MQTT server and Python-based backend to manage connectivity with thousands of devices over 4G LTE networks"
+      ]
+    },
+    {
+      "name": "Manpow ERP",
+      "details": [
+        "Developed for managing properties for rent and sale in a B2C model",
+        "Client is a major broker in the US, handling property sales, rentals, and purchases",
+        "Managed a large database using various technologies including Laravel, Salesforce, Symphony PHP, and Zapier",
+        "Integrated multiple services with Salesforce, including Google Leads, website tracking, and CRM with OroINC, OroCRM, OroCommerce",
+        "Implemented complex long-term maintenance strategies, primarily using Reliability-Centered Maintenance with AWS servers",
+        "Improved user productivity through new UI designs for better data entry"
+      ]
+    },
+    {
+      "name": "CRM (Product)",
+      "details": [
+        "Developed key features for automatic integration with hardware and software like Odoo, NextERP, QuickBooks, Tally, or Salesforce",
+        "Improved customer satisfaction by connecting with hardware and automating data gathering from real-world sources",
+        "Implemented integrations with various systems including Salesforce, Odoo, NextJS, Tally, QuickBooks, and open-source hardware",
+        "Achieved high user adoption rates due to real-world connectivity features"
+      ]
+    },
+    {
+      "name": "ERP and Production Management Module (Product)",
+      "details": [
+        "Served industries like plastic molding machine makers and MNC companies",
+        "Improved production efficiency through a mobile app for faster data capture from engineers and laborers",
+        "Mobile app usage focused on updating product status in the supply chain",
+        "Provided easy-to-use modules for engineers to track part status, resulting in comprehensive production status dashboards",
+        "Achieved cost savings for clients through improved production tracking and management"
+      ]
+    },
+    {
+      "name": "IP Management System for ISP",
+      "details": [
+        "Managed an uncountable number of IP addresses",
+        "Improved efficiency in managing internet connectivity and billing for customers compared to the previous system",
+        "Successfully integrated APIs to connect the control panel directly with customer internet services and network switches",
+        "Enhanced scalability, making it easier to manage network switches serving thousands of users across towns"
+      ]
+    },
+    {
+      "name": "Mile 2 Smiley",
+      "details": [
+        "Developed a healthcare monitoring system with telehealth capabilities and ECG data integration",
+        "Features included patient monitoring, telehealth functionality, and ECG data integration",
+        "Specific metrics on patient numbers, user satisfaction rates, and health outcome improvements were not available as the project was in development phase"
+      ]
+    },
+    {
+      "name": "Various Service-Based Development Projects",
+      "details": [
+        "Delivered more than 20 websites",
+        "Implemented various payment gateways including Stripe, PayPal, RazorPay, and others",
+        "Developed functionalities such as e-commerce platforms, administration-level data management systems, REST APIs, server management, and database management",
+        "Provided tech support for ongoing projects",
+        "Successfully delivered 30+ websites using WordPress",
+        "Developed 2+ e-commerce websites using Magento (CMS-PHP)"
+      ]
+    }
+  ]
+}

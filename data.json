@@ -3,11 +3,10 @@
     "name": "Rakshit Bharatbhai Patel",
     "role": "Sr Full-Stack Developer (React/Vue Full Stack with Node)",
     "email": "rakshitbharatproject@gmail.com",
-    "phone": "8000263443",
-    "address": "Aastha Appartment, Alkapuri To Saibaba Mandir Road, 380061 Ahmedabad, India",
     "github": "github.com/rakshitbharat"
   },
-  "professionalSummary": "Highly organized IT professional with over 8 years of experience in software development, specializing in React, Node.js, and various JavaScript frameworks. Proven track record in leading complex projects for global clients, including e-commerce platforms serving millions of users. Expertise in IoT, CRM systems, and data visualization tools like Google Looker Studio. Recognized for technical innovation, team leadership, and the ability to deliver scalable, high-performance solutions. Strong problem-solving skills and a passion for staying updated with the latest industry advancements. Collaborative team player with excellent communication skills, leveraging a unique background in performing arts to excel in public speaking and team collaboration.",
+  "careerStartDate": "2016-01-01",
+  "professionalSummary": "Innovative Sr Full-Stack Developer with {yearsOfExperience} years of experience specializing in React, Node.js, and JavaScript frameworks. Proven track record in leading complex projects for global clients, including high-traffic e-commerce platforms. Expert in IoT, CRM systems, and data visualization tools. Recognized for technical innovation, team leadership, and delivering scalable, high-performance solutions. Strong problem-solver with excellent communication skills and a unique background in performing arts, enhancing public speaking and team collaboration abilities.",
   "skills": {
     "Server Side Backend": [
       "Node.js",

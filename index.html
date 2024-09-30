@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rakshit Bharatbhai Patel - Resume</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <style>
       :root {
         --primary-color: #3498db;
@@ -23,10 +27,11 @@
         line-height: 1.6;
         color: var(--text-color);
         background-color: var(--background-color);
+        background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2V6h4V4H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
       }
 
       .container {
-        max-width: 1200px;
+        max-width: 90%;
         margin: 0 auto;
         padding: 2rem;
       }
@@ -37,6 +42,7 @@
         text-align: center;
         padding: 2rem 0;
         margin-bottom: 2rem;
+        border-radius: 5px;
       }
 
       h1,
@@ -54,6 +60,12 @@
         color: var(--primary-color);
         border-bottom: 2px solid var(--primary-color);
         padding-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+      }
+
+      h2 i {
+        margin-right: 0.5rem;
       }
 
       h3 {
@@ -82,12 +94,6 @@
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       }
 
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 1rem;
-      }
-
       .contact-info {
         display: flex;
         justify-content: center;
@@ -101,44 +107,12 @@
         color: white;
         padding: 0.5rem 1rem;
         border-radius: 20px;
-      }
-
-      .skills-list,
-      .interests-list {
         display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
+        align-items: center;
       }
 
-      .skills-list li,
-      .interests-list li {
-        background-color: var(--primary-color);
-        color: white;
-        padding: 0.5rem 1rem;
-        border-radius: 20px;
-        font-size: 0.9rem;
-      }
-
-      .experience-item,
-      .education-item {
-        margin-bottom: 1.5rem;
-      }
-
-      .experience-item h3,
-      .education-item h3 {
-        margin-bottom: 0.5rem;
-      }
-
-      .experience-item p,
-      .education-item p {
-        font-style: italic;
-        color: var(--secondary-color);
-      }
-
-      @media (max-width: 768px) {
-        .grid {
-          grid-template-columns: 1fr;
-        }
+      .contact-info span i {
+        margin-right: 0.5rem;
       }
 
       .skills-container {
@@ -166,18 +140,447 @@
         font-size: 0.9rem;
       }
 
-      .interests-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
+      .experience-item {
+        margin-bottom: 2rem;
+        border-left: 3px solid var(--primary-color);
+        padding-left: 1rem;
       }
 
-      .interests-list li {
+      .experience-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 0.5rem;
+      }
+
+      .experience-title h3 {
+        margin-bottom: 0.25rem;
+      }
+
+      .experience-title h4 {
+        color: var(--secondary-color);
+        font-weight: normal;
+      }
+
+      .duration {
+        font-style: italic;
+        color: var(--secondary-color);
+      }
+
+      .job-description {
+        margin-bottom: 1rem;
+      }
+
+      .experience-details h5 {
+        color: var(--primary-color);
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .responsibilities,
+      .achievements {
+        padding-left: 1.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .responsibilities li,
+      .achievements li {
+        margin-bottom: 0.25rem;
+        position: relative;
+      }
+
+      .responsibilities li::before,
+      .achievements li::before {
+        content: "•";
+        color: var(--primary-color);
+        font-weight: bold;
+        position: absolute;
+        left: -1rem;
+      }
+
+      .technologies {
+        font-size: 0.9rem;
+        color: var(--secondary-color);
+      }
+
+      .education-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .education-item {
+        border-left: 3px solid var(--primary-color);
+        padding-left: 1rem;
+      }
+
+      .education-content h3 {
+        color: var(--primary-color);
+        margin-bottom: 0.5rem;
+      }
+
+      .education-content p {
+        margin-bottom: 0.25rem;
+      }
+
+      .education-content .institution {
+        font-weight: bold;
+      }
+
+      .education-content .location,
+      .education-content .duration {
+        color: var(--secondary-color);
+        font-size: 0.9rem;
+      }
+
+      .education-content .duration {
+        font-style: italic;
+      }
+
+      .project-item {
+        margin-bottom: 2rem;
+        padding: 1rem;
+        border: 1px solid var(--primary-color);
+        border-radius: 5px;
+      }
+
+      .project-item h3 {
+        color: var(--primary-color);
+        margin-bottom: 0.5rem;
+      }
+
+      .project-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      .project-meta p {
+        margin: 0;
+        font-size: 0.9rem;
+        color: var(--secondary-color);
+      }
+
+      .project-details h4 {
+        color: var(--secondary-color);
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .projects-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+
+      .project-item {
+        border: 1px solid var(--primary-color);
+        border-radius: 8px;
+        padding: 1.5rem;
+        background-color: #f9f9f9;
+        transition: box-shadow 0.3s ease;
+      }
+
+      .project-item:hover {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .project-item h3 {
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+        border-bottom: 2px solid var(--primary-color);
+        padding-bottom: 0.5rem;
+      }
+
+      .project-meta {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .project-meta p {
+        margin: 0;
+        font-size: 0.9rem;
+        color: var(--secondary-color);
+        display: flex;
+        align-items: center;
+      }
+
+      .project-meta p i {
+        margin-right: 0.5rem;
+        width: 20px;
+        text-align: center;
+      }
+
+      .project-details h4 {
+        color: var(--secondary-color);
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+      }
+
+      .project-details h4 i {
+        margin-right: 0.5rem;
+      }
+
+      .project-details ul {
+        padding-left: 1.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .project-details li {
+        margin-bottom: 0.5rem;
+        position: relative;
+      }
+
+      .project-details li::before {
+        content: "•";
+        color: var(--primary-color);
+        font-weight: bold;
+        position: absolute;
+        left: -1rem;
+      }
+
+      .certificates-awards-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      .certificate-award-item {
+        display: flex;
+        align-items: flex-start;
+        background-color: #f9f9f9;
+        border: 1px solid var(--primary-color);
+        border-radius: 8px;
+        padding: 1rem;
+        transition: box-shadow 0.3s ease;
+      }
+
+      .certificate-award-item:hover {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .certificate-award-item > i {
+        font-size: 2rem;
+        color: var(--primary-color);
+        margin-right: 1rem;
+      }
+
+      .certificate-award-content h3 {
+        color: var(--secondary-color);
+        margin-bottom: 0.5rem;
+      }
+
+      .certificate-award-content p {
+        font-size: 0.9rem;
+        color: var(--text-color);
+        display: flex;
+        align-items: center;
+      }
+
+      .certificate-award-content p i {
+        margin-right: 0.5rem;
+      }
+
+      .languages-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      .language-item {
+        display: flex;
+        align-items: center;
+        background-color: #f9f9f9;
+        border: 1px solid var(--primary-color);
+        border-radius: 8px;
+        padding: 1rem;
+        transition: box-shadow 0.3s ease;
+      }
+
+      .language-item:hover {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .language-item > i {
+        font-size: 2rem;
+        color: var(--primary-color);
+        margin-right: 1rem;
+      }
+
+      .language-content h3 {
+        color: var(--secondary-color);
+        margin-bottom: 0.25rem;
+      }
+
+      .language-content p {
+        font-size: 0.9rem;
+        color: var(--text-color);
+      }
+
+      .interests-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+
+      .interest-item {
+        background-color: #f9f9f9;
+        border: 1px solid var(--primary-color);
+        border-radius: 20px;
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+        display: flex;
+        align-items: center;
+        transition: background-color 0.3s ease;
+      }
+
+      .interest-item:hover {
         background-color: var(--primary-color);
         color: white;
+      }
+
+      .interest-item i {
+        margin-right: 0.5rem;
+      }
+
+      .additional-experience h3 {
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+      }
+
+      .additional-experience ul {
+        padding-left: 1.5rem;
+      }
+
+      .additional-experience li {
+        margin-bottom: 0.5rem;
+        position: relative;
+      }
+
+      .additional-experience li i {
+        color: var(--primary-color);
+        position: absolute;
+        left: -1.5rem;
+        top: 0.25rem;
+      }
+
+      .thank-you p {
+        margin-bottom: 1rem;
+        font-style: italic;
+      }
+
+      @media (min-width: 768px) {
+        .projects-container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .certificates-awards-container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .languages-container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 1rem;
+        }
+
+        .section {
+          padding: 1rem;
+        }
+
+        .skills-container,
+        .education-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .certificates-awards-container {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .main-header {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .header-content {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .main-header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .main-header .role {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+      }
+
+      .contact-info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+
+      .contact-info span {
+        display: flex;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.1);
         padding: 0.5rem 1rem;
         border-radius: 20px;
         font-size: 0.9rem;
+      }
+
+      .contact-info span i {
+        margin-right: 0.5rem;
+      }
+
+      .summary-section {
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .summary-content {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: var(--text-color);
+      }
+
+      @media (max-width: 768px) {
+        .main-header {
+          padding: 1.5rem;
+        }
+
+        .contact-info {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .contact-info span {
+          width: 100%;
+          justify-content: center;
+        }
       }
     </style>
   </head>
@@ -191,10 +594,25 @@
         return data;
       }
 
+      function calculateYearsOfExperience(startDate) {
+        const start = new Date(startDate);
+        const now = new Date();
+        const years = now.getFullYear() - start.getFullYear();
+        const monthDiff = now.getMonth() - start.getMonth();
+        if (
+          monthDiff < 0 ||
+          (monthDiff === 0 && now.getDate() < start.getDate())
+        ) {
+          return years - 1;
+        }
+        return years;
+      }
+
       function createResumeHTML(data) {
         const {
           personalInfo,
           professionalSummary,
+          careerStartDate,
           skills,
           interests,
           certificates,
@@ -206,210 +624,297 @@
           keyProjects,
         } = data;
 
+        const yearsOfExperience = calculateYearsOfExperience(careerStartDate);
+        const formattedSummary = professionalSummary.replace(
+          "{yearsOfExperience}",
+          `${yearsOfExperience + 1}`
+        );
+
         return `
-                <header>
-                    <h1>${personalInfo.name}</h1>
-                    <p>${personalInfo.role}</p>
-                    <div class="contact-info">
-                        <span>${personalInfo.email}</span>
-                        <span>${personalInfo.github}</span>
+          <header class="main-header">
+            <div class="header-content">
+              <h1>${personalInfo.name}</h1>
+              <p class="role">${personalInfo.role}</p>
+              <div class="contact-info">
+                <span><i class="fas fa-envelope"></i>${
+                  personalInfo.email
+                }</span>
+                <span><i class="fab fa-github"></i>${personalInfo.github}</span>
+              </div>
+            </div>
+          </header>
+
+          <section class="section summary-section">
+            <h2><i class="fas fa-user"></i>Professional Summary</h2>
+            <p class="summary-content">${formattedSummary}</p>
+          </section>
+
+          <section class="section">
+            <h2><i class="fas fa-cogs"></i>Skills</h2>
+            <div class="skills-container">
+              ${Object.entries(skills)
+                .map(
+                  ([category, skillList]) => `
+                  <div class="skill-category">
+                    <h3>${category}</h3>
+                    <ul class="skills-list">
+                      ${
+                        Array.isArray(skillList)
+                          ? skillList
+                              .map((skill) => `<li>${skill}</li>`)
+                              .join("")
+                          : `<li>${skillList}</li>`
+                      }
+                    </ul>
+                  </div>
+                `
+                )
+                .join("")}
+            </div>
+          </section>
+
+          <section class="section">
+            <h2><i class="fas fa-briefcase"></i>Professional Experience</h2>
+            ${professionalExperience
+              .map(
+                (exp) => `
+                  <div class="experience-item">
+                    <div class="experience-header">
+                      <div class="experience-title">
+                        <h3>${exp.role}</h3>
+                        <h4>${exp.company}</h4>
+                      </div>
+                      <p class="duration">${exp.duration}</p>
                     </div>
-                </header>
+                    <div class="experience-details">
+                      ${
+                        exp.description
+                          ? `<p class="job-description">${exp.description}</p>`
+                          : ""
+                      }
+                      <h5>Key Responsibilities:</h5>
+                      <ul class="responsibilities">
+                        ${exp.responsibilities
+                          .map((resp) => `<li>${resp}</li>`)
+                          .join("")}
+                      </ul>
+                      ${
+                        exp.achievements
+                          ? `
+                          <h5>Key Achievements:</h5>
+                          <ul class="achievements">
+                            ${exp.achievements
+                              .map((achievement) => `<li>${achievement}</li>`)
+                              .join("")}
+                          </ul>
+                      `
+                          : ""
+                      }
+                      ${
+                        exp.technologies
+                          ? `
+                          <p class="technologies">
+                            <strong>Technologies used:</strong> ${exp.technologies.join(
+                              ", "
+                            )}
+                          </p>
+                      `
+                          : ""
+                      }
+                    </div>
+                  </div>
+                `
+              )
+              .join("")}
+          </section>
 
-                <section class="section">
-                    <h2>Professional Summary</h2>
-                    <p>${professionalSummary}</p>
-                </section>
+          <section class="section">
+            <h2><i class="fas fa-graduation-cap"></i>Education</h2>
+            <div class="education-container">
+              ${education
+                .map(
+                  (edu) => `
+                    <div class="education-item">
+                      <div class="education-content">
+                        <h3>${edu.degree}</h3>
+                        <p class="institution">${edu.institution}</p>
+                        <p class="location">${edu.location}</p>
+                        <p class="duration">${edu.duration}</p>
+                      </div>
+                    </div>
+                  `
+                )
+                .join("")}
+            </div>
+          </section>
 
-                <section class="section">
-                    <h2>Skills</h2>
-                    <div class="skills-container">
-                        ${Object.entries(skills)
-                          .map(
-                            ([category, skillList]) => `
-                            <div class="skill-category">
-                                <h3>${category}</h3>
-                                <ul class="skills-list">
-                                    ${
-                                      Array.isArray(skillList)
-                                        ? skillList
-                                            .map((skill) => `<li>${skill}</li>`)
-                                            .join("")
-                                        : `<li>${skillList}</li>`
-                                    }
-                                </ul>
-                            </div>
+          <section class="section">
+            <h2><i class="fas fa-project-diagram"></i>Key Projects</h2>
+            <div class="projects-container">
+              ${keyProjects
+                .map(
+                  (project) => `
+                    <div class="project-item">
+                      <h3>${project.name}</h3>
+                      <div class="project-meta">
+                        ${
+                          project.role
+                            ? `<p><i class="fas fa-user-tie"></i> <strong>Role:</strong> ${project.role}</p>`
+                            : ""
+                        }
+                        ${
+                          project.duration
+                            ? `<p><i class="far fa-calendar-alt"></i> <strong>Duration:</strong> ${project.duration}</p>`
+                            : ""
+                        }
+                        ${
+                          project.technologies
+                            ? `<p><i class="fas fa-tools"></i> <strong>Technologies:</strong> ${project.technologies.join(
+                                ", "
+                              )}</p>`
+                            : ""
+                        }
+                      </div>
+                      <div class="project-details">
+                        <h4><i class="fas fa-info-circle"></i> Project Details:</h4>
+                        <ul>
+                          ${project.details
+                            .map((detail) => `<li>${detail}</li>`)
+                            .join("")}
+                        </ul>
+                        ${
+                          project.responsibilities
+                            ? `
+                            <h4><i class="fas fa-tasks"></i> Responsibilities:</h4>
+                            <ul>
+                              ${project.responsibilities
+                                .map((resp) => `<li>${resp}</li>`)
+                                .join("")}
+                            </ul>
                         `
-                          )
-                          .join("")}
+                            : ""
+                        }
+                        ${
+                          project.achievements
+                            ? `
+                            <h4><i class="fas fa-trophy"></i> Achievements:</h4>
+                            <ul>
+                              ${project.achievements
+                                .map((achievement) => `<li>${achievement}</li>`)
+                                .join("")}
+                            </ul>
+                        `
+                            : ""
+                        }
+                      </div>
                     </div>
-                </section>
+                  `
+                )
+                .join("")}
+            </div>
+          </section>
 
-                <section class="section">
-                    <h2>Professional Experience</h2>
-                    ${professionalExperience
-                      .map(
-                        (exp) => `
-                        <div class="experience-item">
-                            <h3>${exp.role} at ${exp.company}</h3>
-                            <p>${exp.duration}</p>
-                            <ul>
-                                ${exp.responsibilities
-                                  .map((resp) => `<li>${resp}</li>`)
-                                  .join("")}
-                            </ul>
-                        </div>
-                    `
-                      )
-                      .join("")}
-                </section>
+          <section class="section">
+            <h2><i class="fas fa-certificate"></i>Certificates & Awards</h2>
+            <div class="certificates-awards-container">
+              ${certificates
+                .map(
+                  (cert) => `
+                  <div class="certificate-award-item">
+                    <i class="fas fa-award"></i>
+                    <div class="certificate-award-content">
+                      <h3>${cert.name}</h3>
+                      <p><i class="fas fa-building"></i> ${cert.issuer}</p>
+                    </div>
+                  </div>
+                `
+                )
+                .join("")}
+              ${awards
+                .map(
+                  (award) => `
+                  <div class="certificate-award-item">
+                    <i class="fas fa-trophy"></i>
+                    <div class="certificate-award-content">
+                      <h3>${award.name}</h3>
+                      <p><i class="fas fa-building"></i> ${award.issuer}</p>
+                    </div>
+                  </div>
+                `
+                )
+                .join("")}
+            </div>
+          </section>
 
-                <section class="section">
-                    <h2>Education</h2>
-                    ${education
-                      .map(
-                        (edu) => `
-                        <div class="education-item">
-                            <h3>${edu.degree}</h3>
-                            <p>${edu.institution}, ${edu.location}</p>
-                            <p>${edu.duration}</p>
-                        </div>
-                    `
-                      )
-                      .join("")}
-                </section>
+          <section class="section">
+            <h2><i class="fas fa-language"></i>Languages</h2>
+            <div class="languages-container">
+              ${languages
+                .map(
+                  (lang) => `
+                    <div class="language-item">
+                      <i class="fas fa-globe"></i>
+                      <div class="language-content">
+                        <h3>${lang.language}</h3>
+                        <p>${lang.proficiency}</p>
+                      </div>
+                    </div>
+                  `
+                )
+                .join("")}
+            </div>
+          </section>
 
-                <section class="section">
-                    <h2>Key Projects</h2>
-                    ${keyProjects
-                      .map(
-                        (project) => `
-                        <div class="experience-item">
-                            <h3>${project.name}</h3>
-                            ${
-                              project.role
-                                ? `<p><strong>Role:</strong> ${project.role}</p>`
-                                : ""
-                            }
-                            ${
-                              project.duration
-                                ? `<p><strong>Duration:</strong> ${project.duration}</p>`
-                                : ""
-                            }
-                            ${
-                              project.technologies
-                                ? `<p><strong>Technologies:</strong> ${project.technologies.join(
-                                    ", "
-                                  )}</p>`
-                                : ""
-                            }
-                            <h4>Project Details:</h4>
-                            <ul>
-                                ${project.details
-                                  .map((detail) => `<li>${detail}</li>`)
-                                  .join("")}
-                            </ul>
-                            ${
-                              project.responsibilities
-                                ? `
-                                <h4>Responsibilities:</h4>
-                                <ul>
-                                    ${project.responsibilities
-                                      .map((resp) => `<li>${resp}</li>`)
-                                      .join("")}
-                                </ul>
-                            `
-                                : ""
-                            }
-                            ${
-                              project.achievements
-                                ? `
-                                <h4>Achievements:</h4>
-                                <ul>
-                                    ${project.achievements
-                                      .map(
-                                        (achievement) =>
-                                          `<li>${achievement}</li>`
-                                      )
-                                      .join("")}
-                                </ul>
-                            `
-                                : ""
-                            }
-                        </div>
-                    `
-                      )
-                      .join("")}
-                </section>
+          <section class="section">
+            <h2><i class="fas fa-star"></i>Interests</h2>
+            <div class="interests-container">
+              ${interests
+                .flatMap((interest) => {
+                  if (interest.technology)
+                    return [
+                      `<div class="interest-item"><i class="fas fa-microchip"></i>${interest.technology}</div>`,
+                    ];
+                  if (interest.game)
+                    return [
+                      `<div class="interest-item"><i class="fas fa-gamepad"></i>${interest.game}</div>`,
+                    ];
+                  if (interest.category)
+                    return interest.activities.map(
+                      (activity) =>
+                        `<div class="interest-item"><i class="fas fa-${
+                          activity.type === "Outdoor" ? "hiking" : "chess-board"
+                        }"></i>${activity.name}</div>`
+                    );
+                  if (interest.activity)
+                    return [
+                      `<div class="interest-item"><i class="fas fa-walking"></i>${interest.activity}</div>`,
+                    ];
+                  return [];
+                })
+                .join("")}
+            </div>
+          </section>
 
-                <section class="section">
-                    <h2>Additional Experience</h2>
-                    <h3>${additionalExperience.role}</h3>
-                    <ul>
-                        ${additionalExperience.details
-                          .map((detail) => `<li>${detail}</li>`)
-                          .join("")}
-                    </ul>
-                </section>
+          <section class="section">
+            <h2><i class="fas fa-plus-circle"></i>Additional Experience</h2>
+            <div class="additional-experience">
+              <h3>${additionalExperience.role}</h3>
+              <ul>
+                ${additionalExperience.details
+                  .map(
+                    (detail) => `<li><i class="fas fa-check"></i>${detail}</li>`
+                  )
+                  .join("")}
+              </ul>
+            </div>
+          </section>
 
-                <div class="grid">
-                    <section class="section">
-                        <h2>Certificates & Awards</h2>
-                        <ul>
-                            ${certificates
-                              .map(
-                                (cert) =>
-                                  `<li>${cert.name} - ${cert.issuer}</li>`
-                              )
-                              .join("")}
-                            ${awards
-                              .map(
-                                (award) =>
-                                  `<li>${award.name} - ${award.issuer}</li>`
-                              )
-                              .join("")}
-                        </ul>
-                    </section>
-
-                    <section class="section">
-                        <h2>Languages</h2>
-                        <ul>
-                            ${languages
-                              .map(
-                                (lang) =>
-                                  `<li>${lang.language} - ${lang.proficiency}</li>`
-                              )
-                              .join("")}
-                        </ul>
-                    </section>
-                </div>
-                <section class="section">
-                    <h2>Interests</h2>
-                    <ul class="interests-list">
-                        ${interests
-                          .flatMap((interest) => {
-                            if (interest.technology)
-                              return [`${interest.technology}`];
-                            if (interest.game) return [`${interest.game}`];
-                            if (interest.category)
-                              return interest.activities.map(
-                                (activity) => activity.name
-                              );
-                            if (interest.activity)
-                              return [`${interest.activity}`];
-                            return [];
-                          })
-                          .map((item) => `<li>${item}</li>`)
-                          .join("")}
-                    </ul>
-                </section>
-
-                <section class="section">
-                    <h2>Thank You</h2>
-                    <p>Thank you for taking the time to review my resume. I am excited about the opportunity to contribute my skills and experience to your team. I look forward to discussing how I can add value to your organization.</p>
-                    <p>For any further information or to schedule an interview, please don't hesitate to contact me using the information provided at the top of this resume.</p>
-                </section>
-            `;
+          <section class="section thank-you">
+            <h2><i class="fas fa-handshake"></i>Thank You</h2>
+            <p>Thank you for taking the time to review my resume. I am excited about the opportunity to contribute my skills and experience to your team. I look forward to discussing how I can add value to your organization.</p>
+            <p>For any further information or to schedule an interview, please don't hesitate to contact me using the information provided at the top of this resume.</p>
+          </section>
+        `;
       }
 
       async function renderResume() {

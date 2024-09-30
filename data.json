@@ -281,7 +281,7 @@
       "name": "CRM (Product)",
       "role": "Full Stack Developer",
       "duration": "2018 - 2019",
-      "technologies": ["React", "Node.js", "Salesforce", "Odoo", "QuickBooks"],
+      "technologies": ["Laravel", "Vue.js", "Node.js"],
       "details": [
         "Developed key features for automatic integration with hardware and software like Odoo, NextERP, QuickBooks, Tally, or Salesforce",
         "Improved customer satisfaction by connecting with hardware and automating data gathering from real-world sources",
@@ -304,7 +304,7 @@
       "name": "ERP and Production Management Module (Product)",
       "role": "Senior Developer",
       "duration": "2017 - 2018",
-      "technologies": ["React Native", "Node.js", "MongoDB"],
+      "technologies": ["React Native", "Laravel"],
       "details": [
         "Served industries like plastic molding machine makers and MNC companies",
         "Improved production efficiency through a mobile app for faster data capture from engineers and laborers",
@@ -328,7 +328,7 @@
       "name": "IP Management System for ISP",
       "role": "Senior Developer",
       "duration": "2016 - 2017",
-      "technologies": ["React", "Node.js", "MongoDB"],
+      "technologies": ["Laravel", "PHP", "MySQL"],
       "details": [
         "Managed an uncountable number of IP addresses",
         "Improved efficiency in managing internet connectivity and billing for customers compared to the previous system",
@@ -348,10 +348,10 @@
       ]
     },
     {
-      "name": "Mile 2 Smiley",
-      "role": "Full Stack Developer",
+      "name": "Mile 2 Smiley (Backend)",
+      "role": "Backend Developer",
       "duration": "2015 - 2016",
-      "technologies": ["React", "Node.js", "MongoDB", "Telehealth", "ECG"],
+      "technologies": ["Laravel", "PHP", "MySQL"],
       "details": [
         "Developed a healthcare monitoring system with telehealth capabilities and ECG data integration",
         "Features included patient monitoring, telehealth functionality, and ECG data integration",
@@ -373,7 +373,17 @@
       "name": "Various Service-Based Development Projects",
       "role": "Full Stack Developer",
       "duration": "2014 - 2015",
-      "technologies": ["React", "Node.js", "MongoDB", "WordPress", "Magento"],
+      "technologies": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "WordPress",
+        "Magento"
+      ],
       "details": [
         "Delivered more than 20 websites",
         "Implemented various payment gateways including Stripe, PayPal, RazorPay, and others",

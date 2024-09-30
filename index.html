@@ -31,9 +31,23 @@
       }
 
       .container {
-        max-width: 90%;
+        width: 95%;
+        max-width: 1200px;
         margin: 0 auto;
-        padding: 2rem;
+        padding: 1rem;
+      }
+
+      @media (min-width: 768px) {
+        .container {
+          width: 90%;
+          padding: 2rem;
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .container {
+          width: 85%;
+        }
       }
 
       header {
@@ -489,21 +503,96 @@
       }
 
       @media (max-width: 768px) {
+        body {
+          font-size: 14px;
+        }
+
         .container {
+          padding: 0.5rem;
+        }
+
+        .main-header {
           padding: 1rem;
+        }
+
+        .main-header h1 {
+          font-size: 2rem;
+        }
+
+        .main-header .role {
+          font-size: 1rem;
+        }
+
+        .contact-info {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .contact-info span {
+          width: 100%;
+          justify-content: center;
+          margin-bottom: 0.5rem;
         }
 
         .section {
           padding: 1rem;
         }
 
-        .skills-container,
-        .education-grid {
+        h2 {
+          font-size: 1.5rem;
+        }
+
+        h3 {
+          font-size: 1.2rem;
+        }
+
+        .skills-container {
           grid-template-columns: 1fr;
         }
 
-        .certificates-awards-container {
+        .experience-header {
+          flex-direction: column;
+        }
+
+        .experience-title h3 {
+          font-size: 1.2rem;
+        }
+
+        .experience-title h4 {
+          font-size: 1rem;
+        }
+
+        .duration {
+          margin-top: 0.25rem;
+        }
+
+        .projects-container,
+        .certificates-awards-container,
+        .languages-container {
           grid-template-columns: 1fr;
+        }
+
+        .project-item,
+        .certificate-award-item,
+        .language-item {
+          padding: 1rem;
+        }
+
+        .project-meta {
+          flex-direction: column;
+        }
+
+        .project-meta p {
+          margin-bottom: 0.5rem;
+        }
+
+        .interests-container {
+          justify-content: center;
+        }
+
+        .interest-item {
+          width: calc(50% - 0.5rem);
+          justify-content: center;
         }
       }
 

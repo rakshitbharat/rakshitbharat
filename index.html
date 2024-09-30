@@ -818,6 +818,20 @@
           </section>
 
           <section class="section">
+            <h2><i class="fas fa-plus-circle"></i>Additional Experience</h2>
+            <div class="additional-experience">
+              <h3>${additionalExperience.role}</h3>
+              <ul>
+                ${additionalExperience.details
+                  .map(
+                    (detail) => `<li><i class="fas fa-check"></i>${detail}</li>`
+                  )
+                  .join("")}
+              </ul>
+            </div>
+          </section>
+
+          <section class="section">
             <h2><i class="fas fa-graduation-cap"></i>Education</h2>
             <div class="education-container">
               ${education
@@ -981,20 +995,6 @@
                   return [];
                 })
                 .join("")}
-            </div>
-          </section>
-
-          <section class="section">
-            <h2><i class="fas fa-plus-circle"></i>Additional Experience</h2>
-            <div class="additional-experience">
-              <h3>${additionalExperience.role}</h3>
-              <ul>
-                ${additionalExperience.details
-                  .map(
-                    (detail) => `<li><i class="fas fa-check"></i>${detail}</li>`
-                  )
-                  .join("")}
-              </ul>
             </div>
           </section>
 

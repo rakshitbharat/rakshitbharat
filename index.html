@@ -363,7 +363,45 @@
                         <h2>Interests</h2>
                         <ul class="interests-list">
                             ${interests
-                              .map((interest) => `<li>${interest}</li>`)
+                              .map((interest) => {
+                                if (typeof interest === "string") {
+                                  return `<li>${interest}</li>`;
+                                } else if (interest.technology) {
+                                  return `<li>${interest.technology}: ${interest.description}</li>`;
+                                } else if (interest.game) {
+                                  return `<li>${interest.game} (${interest.type}): ${interest.skill}</li>`;
+                                } else if (interest.category) {
+                                  return `
+                                        <li>
+                                            ${interest.category}:
+                                            <ul>
+                                                ${interest.activities
+                                                  .map(
+                                                    (activity) =>
+                                                      `<li>${activity.name} (${activity.type}, ${activity.players})</li>`
+                                                  )
+                                                  .join("")}
+                                            </ul>
+                                        </li>
+                                    `;
+                                } else if (interest.activity) {
+                                  return `
+                                        <li>
+                                            ${interest.activity} (${
+                                    interest.type
+                                  }):
+                                            <ul>
+                                                ${interest.benefits
+                                                  .map(
+                                                    (benefit) =>
+                                                      `<li>${benefit}</li>`
+                                                  )
+                                                  .join("")}
+                                            </ul>
+                                        </li>
+                                    `;
+                                }
+                              })
                               .join("")}
                         </ul>
                     </section>

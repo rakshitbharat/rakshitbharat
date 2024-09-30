@@ -49,10 +49,45 @@
     "Project Management Tools": ["Jira", "Trello", "Asana", "Microsoft Project"]
   },
   "interests": [
-    "Computing",
-    "Playing Chess",
-    "Outdoor and Indoor Gaming (Football, Cricket, Carom, Chess)",
-    "Evening walks"
+    {
+      "technology": "Computing",
+      "description": "Exploring and working with various aspects of computer science and technology"
+    },
+    {
+      "game": "Chess",
+      "type": "Board game",
+      "skill": "Strategic thinking"
+    },
+    {
+      "category": "Outdoor and Indoor Gaming",
+      "activities": [
+        {
+          "name": "Football",
+          "type": "Outdoor",
+          "players": "Team sport"
+        },
+        {
+          "name": "Cricket",
+          "type": "Outdoor",
+          "players": "Team sport"
+        },
+        {
+          "name": "Carom",
+          "type": "Indoor",
+          "players": "2-4 players"
+        },
+        {
+          "name": "Chess",
+          "type": "Indoor",
+          "players": "2 players"
+        }
+      ]
+    },
+    {
+      "activity": "Evening walks",
+      "type": "Physical exercise",
+      "benefits": ["Stress relief", "Improved fitness", "Better sleep"]
+    }
   ],
   "certificates": [
     {

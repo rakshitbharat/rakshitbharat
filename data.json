@@ -27,16 +27,12 @@
       "Ionic"
     ],
     "AI & Machine Learning": [
-      "Linear regression",
-      "Logistic regression",
-      "Linear discriminant analysis",
-      "Decision trees",
-      "Naive Bayes",
-      "K-Nearest Neighbors",
-      "Learning vector quantization",
-      "Support vector machines",
-      "Bagging and random forest",
-      "Deep neural networks"
+      "OpenAI GPT API",
+      "ChatGPT integration",
+      "AI Assistants",
+      "NLP tools",
+      "ML model deployment",
+      "AI-powered chatbots"
     ],
     "DevOps": ["Linux Production Server Handling"],
     "Project Management": [

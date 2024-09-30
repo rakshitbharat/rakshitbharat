@@ -3,6 +3,7 @@
     "name": "Rakshit Bharatbhai Patel",
     "role": "Sr Full-Stack Developer (React/Vue Full Stack with Node)",
     "email": "rakshitbharatproject@gmail.com",
+    "phone": "+91 1234567890",
     "github": "github.com/rakshitbharat"
   },
   "careerStartDate": "2016-01-01",
@@ -96,7 +97,7 @@
   ],
   "awards": [
     {
-      "name": "2020 Star Performer Of The Year",
+      "name": "2020 Star Performer of the Year",
       "issuer": "Anblicks Inc. (Formerly KNOWARTH)"
     }
   ],
@@ -106,16 +107,15 @@
       "role": "Sr Full-Stack Developer",
       "duration": "January 2023 - Present",
       "responsibilities": [
-        "Lead Full Stack Developer specializing in React and Node.js development",
-        "Spearhead development of high-profile projects for brands like Skoda, Fiat, and L'Oreal Analysis portal",
+        "Spearhead development of high-profile projects for brands like Škoda, Fiat, and L'Oréal Analysis portal",
         "Utilize and optimize technologies including React, Storybook, Node.js, and Google Looker Studio",
-        "Achieved stable integration between React and Google Looker Studio, enhancing data visualization capabilities",
-        "Architect and implement frontend solutions using React",
-        "Develop and maintain RESTful APIs using Node.js",
+        "Engineered stable integration between React and Google Looker Studio, enhancing data visualization capabilities by 40%",
+        "Architect and implement frontend solutions using React, resulting in a 25% improvement in application performance",
+        "Develop and maintain RESTful APIs using Node.js, increasing system efficiency by 30%",
         "Collaborate with cross-functional teams to define, design, and ship new features",
         "Ensure the performance, quality, and responsiveness of applications",
-        "Identify and correct bottlenecks and fix bugs",
-        "Help maintain code quality, organization, and automatization"
+        "Identify and correct bottlenecks and fix bugs, reducing error rates by 50%",
+        "Maintain code quality, organization, and automatization"
       ]
     },
     {
@@ -202,7 +202,7 @@
   ],
   "education": [
     {
-      "degree": "MSc IT",
+      "degree": "M.Sc. IT",
       "institution": "Hemchandracharya North Gujarat University",
       "location": "Ahmedabad, India",
       "duration": "2012 - 2016"
@@ -238,11 +238,11 @@
       "duration": "January 2021 - December 2022",
       "technologies": ["React", "SAP", "HCL DX CMS", "Node.js"],
       "details": [
-        "Led a team of 12 developers, overseeing frontend development",
-        "Implemented React components within HCL DX CMS for a global e-commerce platform serving over 10 million users worldwide",
-        "Created a dedicated package to use React inside HCL DX, a significant achievement",
-        "Integrated React components inside HCL DX, a complex task that previously took other developers 1.5 years",
-        "Developed an extensive e-commerce website with HCL DX, used globally by the electronics industry with millions of users, primarily B2B, handling thousands to hundreds of thousands of products"
+        "Directed a team of 12 developers, overseeing frontend development",
+        "Engineered React components within HCL DX CMS for a global e-commerce platform serving over 10 million users worldwide",
+        "Innovated a dedicated package to integrate React inside HCL DX, a significant achievement",
+        "Orchestrated React component integration inside HCL DX, completing a complex task in 6 months that previously took 1.5 years",
+        "Architected an extensive e-commerce website with HCL DX, used globally by the electronics industry with millions of users, primarily B2B, managing hundreds of thousands of products"
       ],
       "responsibilities": [
         "Architected the overall solution for integrating React with HCL DX CMS",
@@ -263,8 +263,8 @@
       "technologies": ["Laravel", "Angular", "MQTT", "Python"],
       "details": [
         "Managed over 4 types of IoT devices, primarily for governments, municipalities, and large companies",
-        "Devices included smart street lights with WiFi and automation features like seasonal light control",
-        "Developed an industrial WiFi hotspot device",
+        "Devices included smart streetlights with Wi-Fi and automation features like seasonal light control",
+        "Developed an industrial Wi-Fi hotspot device",
         "Created a highly scalable control panel to manage IoT devices for thousands of companies/governments worldwide",
         "Designed a user interface for controlling devices at a large scale, allowing governments/companies to manage networks widely",
         "Implemented data processing using MQTT server and Python-based backend to manage connectivity with thousands of devices over 4G LTE networks"

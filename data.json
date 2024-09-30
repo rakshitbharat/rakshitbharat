@@ -225,7 +225,7 @@
       "name": "Ubicquia Control-Panel (IoT Devices Control Panel)",
       "role": "Lead Full Stack Developer",
       "duration": "2020 - 2021",
-      "technologies": ["React", "Node.js", "MQTT", "Python", "IoT"],
+      "technologies": ["Laravel", "Angular", "MQTT", "Python"],
       "details": [
         "Managed over 4 types of IoT devices, primarily for governments, municipalities, and large companies",
         "Devices included smart street lights with WiFi and automation features like seasonal light control",

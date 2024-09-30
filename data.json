@@ -40,8 +40,13 @@
     ],
     "DevOps": ["Linux Production Server Handling"],
     "Project Management": [
-      "Version Control & Project Management: Git, Kanban, Agile-Scrum, Jira"
-    ]
+      "Version Control",
+      "Agile Methodologies",
+      "Project Management Tools"
+    ],
+    "Version Control": ["Git", "GitHub", "GitLab", "Bitbucket"],
+    "Agile Methodologies": ["Scrum", "Kanban", "Agile-Scrum hybrid"],
+    "Project Management Tools": ["Jira", "Trello", "Asana", "Microsoft Project"]
   },
   "interests": [
     "Computing",

@@ -165,6 +165,20 @@
         border-radius: 20px;
         font-size: 0.9rem;
       }
+
+      .interests-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+
+      .interests-list li {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+      }
     </style>
   </head>
   <body>
@@ -328,6 +342,16 @@
                       .join("")}
                 </section>
 
+                <section class="section">
+                    <h2>Additional Experience</h2>
+                    <h3>${additionalExperience.role}</h3>
+                    <ul>
+                        ${additionalExperience.details
+                          .map((detail) => `<li>${detail}</li>`)
+                          .join("")}
+                    </ul>
+                </section>
+
                 <div class="grid">
                     <section class="section">
                         <h2>Certificates & Awards</h2>
@@ -358,63 +382,32 @@
                               .join("")}
                         </ul>
                     </section>
-
-                    <section class="section">
-                        <h2>Interests</h2>
-                        <ul class="interests-list">
-                            ${interests
-                              .map((interest) => {
-                                if (typeof interest === "string") {
-                                  return `<li>${interest}</li>`;
-                                } else if (interest.technology) {
-                                  return `<li>${interest.technology}: ${interest.description}</li>`;
-                                } else if (interest.game) {
-                                  return `<li>${interest.game} (${interest.type}): ${interest.skill}</li>`;
-                                } else if (interest.category) {
-                                  return `
-                                        <li>
-                                            ${interest.category}:
-                                            <ul>
-                                                ${interest.activities
-                                                  .map(
-                                                    (activity) =>
-                                                      `<li>${activity.name} (${activity.type}, ${activity.players})</li>`
-                                                  )
-                                                  .join("")}
-                                            </ul>
-                                        </li>
-                                    `;
-                                } else if (interest.activity) {
-                                  return `
-                                        <li>
-                                            ${interest.activity} (${
-                                    interest.type
-                                  }):
-                                            <ul>
-                                                ${interest.benefits
-                                                  .map(
-                                                    (benefit) =>
-                                                      `<li>${benefit}</li>`
-                                                  )
-                                                  .join("")}
-                                            </ul>
-                                        </li>
-                                    `;
-                                }
-                              })
-                              .join("")}
-                        </ul>
-                    </section>
                 </div>
-
                 <section class="section">
-                    <h2>Additional Experience</h2>
-                    <h3>${additionalExperience.role}</h3>
-                    <ul>
-                        ${additionalExperience.details
-                          .map((detail) => `<li>${detail}</li>`)
+                    <h2>Interests</h2>
+                    <ul class="interests-list">
+                        ${interests
+                          .flatMap((interest) => {
+                            if (interest.technology)
+                              return [`${interest.technology}`];
+                            if (interest.game) return [`${interest.game}`];
+                            if (interest.category)
+                              return interest.activities.map(
+                                (activity) => activity.name
+                              );
+                            if (interest.activity)
+                              return [`${interest.activity}`];
+                            return [];
+                          })
+                          .map((item) => `<li>${item}</li>`)
                           .join("")}
                     </ul>
+                </section>
+
+                <section class="section">
+                    <h2>Thank You</h2>
+                    <p>Thank you for taking the time to review my resume. I am excited about the opportunity to contribute my skills and experience to your team. I look forward to discussing how I can add value to your organization.</p>
+                    <p>For any further information or to schedule an interview, please don't hesitate to contact me using the information provided at the top of this resume.</p>
                 </section>
             `;
       }

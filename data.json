@@ -123,8 +123,8 @@
       "role": "Lead - Sr React-Developer (With HCLDX-SAP)",
       "duration": "2021 - December 2022",
       "responsibilities": [
-        "Led a team of 12 developers in developing a B2B portal using React and SAP integration",
-        "Spearheaded the implementation of React components within HCL DX CMS for a global e-commerce platform serving over 10 million users",
+        "Led development of a B2B portal using React and SAP integration",
+        "Spearheaded React component implementation within HCL DX CMS for a global e-commerce platform serving over 10 million users",
         "Developed a groundbreaking package enabling React integration with HCL DX, significantly accelerating project timelines",
         "Engineered a robust B2B platform for the global electronics industry, handling millions of users and thousands of products",
         "Managed project timelines, resources, and deliverables",
@@ -238,11 +238,11 @@
       "duration": "January 2021 - December 2022",
       "technologies": ["React", "SAP", "HCL DX CMS", "Node.js"],
       "details": [
-        "Directed a team of 12 developers, overseeing frontend development",
-        "Engineered React components within HCL DX CMS for a global e-commerce platform serving over 10 million users worldwide",
+        "Directed frontend development for a major e-commerce project",
+        "Engineered React components within HCL DX CMS, serving over 10 million users worldwide",
         "Innovated a dedicated package to integrate React inside HCL DX, a significant achievement",
-        "Orchestrated React component integration inside HCL DX, completing a complex task in 6 months that previously took 1.5 years",
-        "Architected an extensive e-commerce website with HCL DX, used globally by the electronics industry with millions of users, primarily B2B, managing hundreds of thousands of products"
+        "Orchestrated component integration, completing a complex task in 6 months that previously took 1.5 years",
+        "Architected an extensive e-commerce website with HCL DX, used globally by the electronics industry, managing hundreds of thousands of products"
       ],
       "responsibilities": [
         "Architected the overall solution for integrating React with HCL DX CMS",

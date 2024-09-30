@@ -749,6 +749,17 @@
         `;
       }
 
+      function formatDate(dateString) {
+        if (!dateString) return "Present";
+        const date = new Date(dateString);
+        const options = { year: "numeric", month: "long" };
+        return date.toLocaleDateString("en-US", options);
+      }
+
+      function formatDateRange(start, end) {
+        return `${formatDate(start)} - ${formatDate(end)}`;
+      }
+
       function createExperience(professionalExperience) {
         return `
           <section class="section">
@@ -762,7 +773,10 @@
                         <h3>${exp.role}</h3>
                         <h4>${exp.company}</h4>
                       </div>
-                      <p class="duration">${exp.duration}</p>
+                      <p class="duration">${formatDateRange(
+                        exp.duration.start,
+                        exp.duration.end
+                      )}</p>
                     </div>
                     <div class="experience-details">
                       ${
@@ -839,7 +853,10 @@
                         <h3>${edu.degree}</h3>
                         <p class="institution">${edu.institution}</p>
                         <p class="location">${edu.location}</p>
-                        <p class="duration">${edu.duration}</p>
+                        <p class="duration">${formatDateRange(
+                          edu.duration.start,
+                          edu.duration.end
+                        )}</p>
                       </div>
                     </div>
                   `
@@ -868,7 +885,10 @@
                         }
                         ${
                           project.duration
-                            ? `<p><i class="far fa-calendar-alt"></i> <strong>Duration:</strong> ${project.duration}</p>`
+                            ? `<p><i class="far fa-calendar-alt"></i> <strong>Duration:</strong> ${formatDateRange(
+                                project.duration.start,
+                                project.duration.end
+                              )}</p>`
                             : ""
                         }
                         ${
@@ -1042,7 +1062,7 @@
         const yearsOfExperience = calculateYearsOfExperience(careerStartDate);
         const formattedSummary = professionalSummary.replace(
           "{yearsOfExperience}",
-          `${yearsOfExperience + 1}`
+          `${yearsOfExperience}`
         );
 
         // Define the order of sections here

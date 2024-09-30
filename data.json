@@ -6,7 +6,7 @@
     "phone": "+91 1234567890",
     "github": "github.com/rakshitbharat"
   },
-  "careerStartDate": "2016-01-01",
+  "careerStartDate": "2016-01-01T00:00:00Z",
   "professionalSummary": "Innovative Sr Full-Stack Developer with {yearsOfExperience} years of experience specializing in React, Node.js, and JavaScript frameworks. Proven track record in leading complex projects for global clients, including high-traffic e-commerce platforms. Expert in IoT, CRM systems, and data visualization tools. Recognized for technical innovation, team leadership, and delivering scalable, high-performance solutions. Strong problem-solver with excellent communication skills and a unique background in performing arts, enhancing public speaking and team collaboration abilities.",
   "skills": {
     "Server Side Backend": [
@@ -105,7 +105,10 @@
     {
       "company": "Annalect India (Omnicom Group)",
       "role": "Sr Full-Stack Developer",
-      "duration": "January 2023 - Present",
+      "duration": {
+        "start": "2023-01-01T00:00:00Z",
+        "end": null
+      },
       "responsibilities": [
         "Spearhead development of high-profile projects for brands like Škoda, Fiat, and L'Oréal Analysis portal",
         "Utilize and optimize technologies including React, Storybook, Node.js, and Google Looker Studio",
@@ -121,7 +124,10 @@
     {
       "company": "Priya Softweb Solutions (Avnet Company)",
       "role": "Lead - Sr React-Developer (With HCLDX-SAP)",
-      "duration": "2021 - December 2022",
+      "duration": {
+        "start": "2021-01-01T00:00:00Z",
+        "end": "2022-12-01T00:00:00Z"
+      },
       "responsibilities": [
         "Led development of a B2B portal using React and SAP integration",
         "Spearheaded React component implementation within HCL DX CMS for a global e-commerce platform serving over 10 million users",
@@ -138,7 +144,10 @@
     {
       "company": "Anblicks Inc. (Formerly KNOWARTH)",
       "role": "Lead Frontend, Sr Full-Stack Dev / Consultant",
-      "duration": "2020 - November 2021",
+      "duration": {
+        "start": "2020-01-01T00:00:00Z",
+        "end": "2021-11-01T00:00:00Z"
+      },
       "responsibilities": [
         "Awarded Star Performer of the year for exceptional contributions",
         "Led development of IoT-based projects and managed multiple decade-old projects with several sub-projects",
@@ -155,7 +164,10 @@
     {
       "company": "Riddhi Corporate Services LTD",
       "role": "Sr Full-Stack Dev / Team Lead",
-      "duration": "2017 - 2020",
+      "duration": {
+        "start": "2017-01-01T00:00:00Z",
+        "end": "2020-12-01T00:00:00Z"
+      },
       "responsibilities": [
         "Led the development of ERP, CRM, and POS products, contributing significantly to career growth",
         "Demonstrated proficiency in React, Laravel, and Vue.js",
@@ -172,7 +184,10 @@
     {
       "company": "Yugtia Technologies Private Limited",
       "role": "Sr Web Developer",
-      "duration": "2016 - 2017",
+      "duration": {
+        "start": "2016-01-01T00:00:00Z",
+        "end": "2017-12-01T00:00:00Z"
+      },
       "responsibilities": [
         "Successfully created a custom PHP framework",
         "Managed self-initiated projects with commendable results",
@@ -187,7 +202,10 @@
     {
       "company": "Natraj Infocom",
       "role": "Jr Web Developer",
-      "duration": "2015 - 2016",
+      "duration": {
+        "start": "2015-01-01T00:00:00Z",
+        "end": "2016-12-01T00:00:00Z"
+      },
       "responsibilities": [
         "Gained extensive knowledge in web technologies, particularly in Laravel and Symfony",
         "Performed exceptionally well while pursuing studies and initiated training activities concurrently",
@@ -205,7 +223,10 @@
       "degree": "M.Sc. IT",
       "institution": "Hemchandracharya North Gujarat University",
       "location": "Ahmedabad, India",
-      "duration": "2012 - 2016"
+      "duration": {
+        "start": "2012-06-01T00:00:00Z",
+        "end": "2017-09-01T00:00:00Z"
+      }
     }
   ],
   "languages": [
@@ -235,7 +256,10 @@
     {
       "name": "Avnet SAP Based E-commerce (React JS)",
       "role": "Lead Full Stack Developer",
-      "duration": "January 2021 - December 2022",
+      "duration": {
+        "start": "2021-01-01T00:00:00Z",
+        "end": "2022-12-01T00:00:00Z"
+      },
       "technologies": ["React", "SAP", "HCL DX CMS", "Node.js"],
       "details": [
         "Directed frontend development for a major e-commerce project",
@@ -259,7 +283,10 @@
     {
       "name": "Ubicquia Control-Panel (IoT Devices Control Panel)",
       "role": "Lead Full Stack Developer",
-      "duration": "2020 - 2021",
+      "duration": {
+        "start": "2020-01-01T00:00:00Z",
+        "end": "2021-01-01T00:00:00Z"
+      },
       "technologies": ["Laravel", "Angular", "MQTT", "Python"],
       "details": [
         "Managed over 4 types of IoT devices, primarily for governments, municipalities, and large companies",
@@ -284,7 +311,10 @@
     {
       "name": "Manpow ERP",
       "role": "Senior Full Stack Developer",
-      "duration": "2019 - 2020",
+      "duration": {
+        "start": "2019-01-01T00:00:00Z",
+        "end": "2020-01-01T00:00:00Z"
+      },
       "technologies": [
         "Laravel",
         "Salesforce",
@@ -315,7 +345,10 @@
     {
       "name": "CRM (Product)",
       "role": "Full Stack Developer",
-      "duration": "2018 - 2019",
+      "duration": {
+        "start": "2018-01-01T00:00:00Z",
+        "end": "2019-01-01T00:00:00Z"
+      },
       "technologies": ["Laravel", "Vue.js", "Node.js"],
       "details": [
         "Developed key features for automatic integration with hardware and software like Odoo, NextERP, QuickBooks, Tally, or Salesforce",
@@ -338,7 +371,10 @@
     {
       "name": "ERP and Production Management Module (Product)",
       "role": "Senior Developer",
-      "duration": "2017 - 2018",
+      "duration": {
+        "start": "2017-01-01T00:00:00Z",
+        "end": "2018-01-01T00:00:00Z"
+      },
       "technologies": ["React Native", "Laravel"],
       "details": [
         "Served industries like plastic molding machine makers and MNC companies",
@@ -362,7 +398,10 @@
     {
       "name": "IP Management System for ISP",
       "role": "Senior Developer",
-      "duration": "2016 - 2017",
+      "duration": {
+        "start": "2016-01-01T00:00:00Z",
+        "end": "2017-01-01T00:00:00Z"
+      },
       "technologies": ["Laravel", "PHP", "MySQL"],
       "details": [
         "Managed an uncountable number of IP addresses",
@@ -385,7 +424,10 @@
     {
       "name": "Mile 2 Smiley (Backend)",
       "role": "Backend Developer",
-      "duration": "2015 - 2016",
+      "duration": {
+        "start": "2015-01-01T00:00:00Z",
+        "end": "2016-01-01T00:00:00Z"
+      },
       "technologies": ["Laravel", "PHP", "MySQL"],
       "details": [
         "Developed a healthcare monitoring system with telehealth capabilities and ECG data integration",
@@ -407,7 +449,10 @@
     {
       "name": "Various Service-Based Development Projects",
       "role": "Full Stack Developer",
-      "duration": "2014 - 2015",
+      "duration": {
+        "start": "2014-01-01T00:00:00Z",
+        "end": "2015-01-01T00:00:00Z"
+      },
       "technologies": [
         "Laravel",
         "PHP",

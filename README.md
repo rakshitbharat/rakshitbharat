@@ -4,11 +4,26 @@
 
 ## 📫 GitHub Stats
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center;">
-  <img src="https://github-readme-stats.vercel.app/api?username=rakshitbharat&show_icons=true&theme=radical" alt="Rakshit's GitHub Stats" style="max-width: 100%; height: auto; margin: 10px;">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakshitbharat&layout=compact&theme=radical" alt="Top Languages" style="max-width: 100%; height: auto; margin: 10px;">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rakshitbharat&theme=radical" alt="GitHub Streak" style="max-width: 100%; height: auto; margin: 10px;">
-  <img src="https://github-contribution-stats.vercel.app/api/?username=rakshitbharat&theme=radical" alt="Contributions" style="max-width: 100%; height: auto; margin: 10px;">
+<div style="margin: 10px;">
+  <img src="https://github-readme-stats.vercel.app/api?username=rakshitbharat&show_icons=true&theme=radical" alt="Rakshit's GitHub Stats" style="max-width: 100%; height: auto;">
+</div>
+
+## 🌟 Top Languages
+
+<div style="margin: 10px;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakshitbharat&layout=compact&theme=radical" alt="Top Languages" style="max-width: 100%; height: auto;">
+</div>
+
+## 📫 Streak Stats
+
+<div style="margin: 10px;">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rakshitbharat&theme=radical" alt="GitHub Streak" style="max-width: 100%; height: auto;">
+</div>
+
+## 🏅 Contributions
+
+<div style="margin: 10px;">
+  <img src="https://github-contribution-stats.vercel.app/api/?username=rakshitbharat&theme=radical" alt="Contributions" style="max-width: 100%; height: auto;">
 </div>
 
 ## 📫 Recent Activity
@@ -18,11 +33,15 @@
 
 ## 👥 Followers
 
-<img src="https://img.shields.io/github/followers/rakshitbharat?style=social" alt="GitHub Followers" style="max-width: 100%; height: auto;">
+<div style="margin: 10px;">
+  <img src="https://img.shields.io/github/followers/rakshitbharat?style=social" alt="GitHub Followers" style="max-width: 100%; height: auto;">
+</div>
 
 ## 📚 Repositories
 
-<img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Repositories&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Frakshitbharat" alt="GitHub Repositories" style="max-width: 100%; height: auto;">
+<div style="margin: 10px;">
+  <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Repositories&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Frakshitbharat" alt="GitHub Repositories" style="max-width: 100%; height: auto;">
+</div>
 
 ## 👨‍💻 About Me
 

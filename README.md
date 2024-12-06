@@ -4,19 +4,19 @@
 
 ## 📫 GitHub Stats
 
-![Rakshit's GitHub Stats](https://github-readme-stats.vercel.app/api?username=rakshitbharat&show_icons=true&theme=radical)
+<img src="https://github-readme-stats.vercel.app/api?username=rakshitbharat&show_icons=true&theme=radical" alt="Rakshit's GitHub Stats" style="max-width: 100%; height: auto;">
 
 ## 🌟 Top Languages
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rakshitbharat&layout=compact&theme=radical)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakshitbharat&layout=compact&theme=radical" alt="Top Languages" style="max-width: 100%; height: auto;">
 
 ## 📫 Streak Stats
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rakshitbharat&theme=radical)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=rakshitbharat&theme=radical" alt="GitHub Streak" style="max-width: 100%; height: auto;">
 
 ## 🏅 Contributions
 
-![Contributions](https://github-contribution-stats.vercel.app/api/?username=rakshitbharat&theme=radical)
+<img src="https://github-contribution-stats.vercel.app/api/?username=rakshitbharat&theme=radical" alt="Contributions" style="max-width: 100%; height: auto;">
 
 ## 📫 Recent Activity
 
@@ -25,11 +25,11 @@
 
 ## 👥 Followers
 
-![GitHub Followers](https://img.shields.io/github/followers/rakshitbharat?style=social)
+<img src="https://img.shields.io/github/followers/rakshitbharat?style=social" alt="GitHub Followers" style="max-width: 100%; height: auto;">
 
 ## 📚 Repositories
 
-![GitHub Repositories](https://img.shields.io/badge/dynamic/json?color=blue&label=Repositories&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Frakshitbharat)
+<img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Repositories&query=%24.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Frakshitbharat" alt="GitHub Repositories" style="max-width: 100%; height: auto;">
 
 ## 👨‍💻 About Me
 

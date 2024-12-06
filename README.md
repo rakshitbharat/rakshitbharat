@@ -4,19 +4,12 @@
 
 ## 📫 GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=rakshitbharat&show_icons=true&theme=radical" alt="Rakshit's GitHub Stats" style="max-width: 100%; height: auto;">
-
-## 🌟 Top Languages
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakshitbharat&layout=compact&theme=radical" alt="Top Languages" style="max-width: 100%; height: auto;">
-
-## 📫 Streak Stats
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=rakshitbharat&theme=radical" alt="GitHub Streak" style="max-width: 100%; height: auto;">
-
-## 🏅 Contributions
-
-<img src="https://github-contribution-stats.vercel.app/api/?username=rakshitbharat&theme=radical" alt="Contributions" style="max-width: 100%; height: auto;">
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+  <img src="https://github-readme-stats.vercel.app/api?username=rakshitbharat&show_icons=true&theme=radical" alt="Rakshit's GitHub Stats" style="max-width: 100%; height: auto; margin: 10px;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakshitbharat&layout=compact&theme=radical" alt="Top Languages" style="max-width: 100%; height: auto; margin: 10px;">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rakshitbharat&theme=radical" alt="GitHub Streak" style="max-width: 100%; height: auto; margin: 10px;">
+  <img src="https://github-contribution-stats.vercel.app/api/?username=rakshitbharat&theme=radical" alt="Contributions" style="max-width: 100%; height: auto; margin: 10px;">
+</div>
 
 ## 📫 Recent Activity
 

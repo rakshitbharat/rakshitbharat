@@ -8,12 +8,6 @@
   <img src="https://github-readme-stats.vercel.app/api?username=rakshitbharat&show_icons=true&theme=radical" alt="Rakshit's GitHub Stats" style="max-width: 100%; height: auto;">
 </div>
 
-## 🌟 Top Languages
-
-<div style="margin: 10px;">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rakshitbharat&layout=compact&theme=radical" alt="Top Languages" style="max-width: 100%; height: auto;">
-</div>
-
 ## 📫 Streak Stats
 
 <div style="margin: 10px;">
